@@ -1,0 +1,149 @@
+/* Final Fix - Ensure Navbar Title is White in Light Mode */
+
+/* Light Mode - Professional Look */
+.light-mode {
+  background-color: #e0f7ff; /* Softer sky blue */
+  color: #0a0a0a; /* Dark black text for better contrast */
+  transition: background-color 0.4s, color 0.4s;
+}
+
+.light-mode .card {
+  background-color: #ffffff !important;
+  color: #0a0a0a !important;
+  border: 1px solid #74c0fc;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.light-mode .navbar {
+  background: linear-gradient(90deg, #1976d2, #42a5f5) !important;
+}
+
+.light-mode .navbar .navbar-brand,
+.light-mode .navbar a.navbar-brand {
+  color: #ffffff !important;
+  font-weight: bold !important;
+}
+
+.light-mode .form-control {
+  background-color: #ffffff !important;
+  color: #0a0a0a !important;
+  border: 1px solid #74c0fc;
+}
+
+.light-mode .form-control::placeholder {
+  color: #555 !important;
+}
+
+.light-mode .btn-custom {
+  background-color: #007bff;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+.light-mode .btn-custom:hover {
+  background-color: #0056b3;
+}
+
+.light-mode .table {
+  background-color: #ffffff !important;
+  color: #0a0a0a !important;
+  border: 1px solid #74c0fc;
+}
+
+.light-mode .table th {
+  background-color: #e3f2fd !important;
+  color: #0a0a0a !important;
+}
+
+.light-mode .table td {
+  background-color: #ffffff !important;
+  color: #0a0a0a !important;
+}
+
+.light-mode .table th, .light-mode .table td {
+  border-bottom: 1px solid #dbeafe;
+}
+
+.light-mode .card-header {
+  background-color: #42a5f5 !important;
+  color: #ffffff !important;
+}
+
+.light-mode p, .light-mode label, .light-mode strong {
+  color: #0a0a0a !important;
+}
+
+.light-mode h4 {
+  color: #ffffff !important;
+}
+
+.light-mode .footer {
+  background-color: #e0f2ff !important;
+  color: #0a0a0a !important;
+  text-align: center;
+  padding: 1rem 0;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark Mode - Sleek & Professional */
+.dark-mode {
+  background-color: #0a192f;
+  color: #e0f2ff;
+  transition: background-color 0.4s, color 0.4s;
+}
+
+.dark-mode .card {
+  background-color: #112240 !important;
+  color: #e0f2ff !important;
+  border: 1px solid #2d4d76;
+  box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .navbar {
+  background: linear-gradient(90deg, #0f3057, #1e6091) !important;
+}
+
+.dark-mode .form-control {
+  background-color: #1e293b !important;
+  color: #e0f2ff !important;
+  border: 1px solid #4a5568;
+}
+
+.dark-mode .form-control::placeholder {
+  color: #a0aec0 !important;
+}
+
+.dark-mode .btn-custom {
+  background-color: #1e6091;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+.dark-mode .btn-custom:hover {
+  background-color: #184c73;
+}
+
+.dark-mode .table {
+  background-color: #112240 !important;
+  color: #e0f2ff !important;
+  border: 1px solid #2d4d76;
+}
+
+.dark-mode .table th, .dark-mode .table td {
+  border-bottom: 1px solid #334d6e;
+}
+
+.dark-mode .card-header {
+  background-color: #1e6091 !important;
+  color: #ffffff !important;
+}
+
+.dark-mode .footer {
+  background-color: #0a192f !important;
+  color: #e0f2ff !important;
+  text-align: center;
+  padding: 1rem 0;
+  box-shadow: 0 -2px 6px rgba(255, 255, 255, 0.1);
+}
